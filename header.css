@@ -1,0 +1,68 @@
+header{
+    height:400px;
+    position:relative;
+}
+
+.my-pic{
+    height:200px;
+    width:190px;
+    position:absolute;
+    bottom:-116px;
+    left:558px;
+    border-radius: 100px;
+}
+
+.sub-header{
+    height:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    color:red;
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+}
+
+.sub-header div{
+   font-family:Roboto,arial;
+   font-weight: bold;
+}
+
+img{
+    height:400px;
+    width:100%;
+}
+
+.my-name{
+    position:absolute;
+    top:175px;
+    left:360px;
+    color:limegreen;
+    font-family:Roboto,arial;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:70px;
+    width:600px;
+    font-size:100px;
+}
+
+.socialmedia-icon{
+    height:40px;
+    width:200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position:absolute;
+    bottom:100px;
+    left:552px;
+}
+
+.socialmedia-icon img{
+    height:40px;
+    width:50px;
+}
+
